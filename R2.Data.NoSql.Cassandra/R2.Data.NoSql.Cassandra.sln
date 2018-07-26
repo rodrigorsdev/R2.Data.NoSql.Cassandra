@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R2.Data.NoSql.Cassandra.Api", "src\R2.Data.NoSql.Cassandra.Api\R2.Data.NoSql.Cassandra.Api.csproj", "{89B820C2-17D4-4DFF-9396-DC8D11769D28}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1B5AA286-4C6A-4319-9B66-4E3880E2864C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89B820C2-17D4-4DFF-9396-DC8D11769D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B820C2-17D4-4DFF-9396-DC8D11769D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B820C2-17D4-4DFF-9396-DC8D11769D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B820C2-17D4-4DFF-9396-DC8D11769D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B5AA286-4C6A-4319-9B66-4E3880E2864C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5AA286-4C6A-4319-9B66-4E3880E2864C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5AA286-4C6A-4319-9B66-4E3880E2864C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5AA286-4C6A-4319-9B66-4E3880E2864C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD1BF527-2EE6-4577-9484-EB86BE2CEEFB}
+	EndGlobalSection
+EndGlobal

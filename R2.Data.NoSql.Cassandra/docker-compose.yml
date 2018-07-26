@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  r2.data.nosql.cassandra.api:
+    image: ${DOCKER_REGISTRY}r2datanosqlcassandraapi
+    build:
+      context: .
+      dockerfile: src/R2.Data.NoSql.Cassandra.Api/Dockerfile

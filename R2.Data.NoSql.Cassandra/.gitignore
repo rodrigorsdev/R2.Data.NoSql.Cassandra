@@ -1,0 +1,8 @@
+**/.vs
+**/bin
+**/obj
+**/Debug
+*.suo
+*.cache
+**/*.suo
+**/*.cache
